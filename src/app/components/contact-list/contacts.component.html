@@ -1,0 +1,9 @@
+<app-contact-form></app-contact-form>
+<div class="div-list" >
+  <h2>Current contacts</h2>
+  <div class="div-item" *ngFor="let contact of this.contacts">
+    <button (click)="contactClicked($event, contact)">View contact</button>
+    <button (click)="contactDeleted($event, contact)">Delete contact</button>
+    <span>{{contact.firstName}}, {{contact.lastName + ": "}}</span><span>{{contact.email}}</span>
+  </div>
+</div>

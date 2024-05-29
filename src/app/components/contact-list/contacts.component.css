@@ -1,0 +1,20 @@
+.div-list{
+    background: #eeeeee;
+    width: 80%;
+    margin: 2em 3em;
+    padding: 1em;
+    border: 1px solid gray;
+}
+
+.div-item{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 5px 1em;
+}
+
+button{
+    background: lightblue;
+    border: none;
+    border-radius: 4px;
+}
